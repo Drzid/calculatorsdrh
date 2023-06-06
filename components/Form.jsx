@@ -2,7 +2,7 @@ import React from "react";
 
 const Form = ({state, updateValues}) => {
     const {jmlGaji, jmlHari, absen} = state;
-    const percentages = [5, 10, 15, 20, 25];
+
 return(
 
     <div className="input-container">

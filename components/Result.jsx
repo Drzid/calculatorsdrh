@@ -9,7 +9,7 @@ return(
     
 <div>
 <p className="label">Gaji yang didapat</p>{" "}
-<p className="result">{`Rp. ${Number(totalGaji).toFixed(2)}`}</p>
+<p className="result">{isNaN(totalGaji) ? "Rp. 0.00" : `Rp. ${Number(totalGaji).toFixed(2)}`}</p>
 </div>
 
 </div>
